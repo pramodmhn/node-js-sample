@@ -1,0 +1,17 @@
+(CASE 
+	WHEN `CampaignID` = 'C0703001'  OR `CampaignID` like '%C0703002%' THEN 'May 1 2019'
+ 	WHEN `CampaignID` = 'C0703003'  OR `CampaignID` like '%C0703004%' THEN 'June 4 2019'
+  	WHEN `CampaignID` = 'C0703007'  OR `CampaignID` like '%C0703006%' THEN 'July 9 2019'
+	WHEN `CampaignID` = 'C0703009'  OR `CampaignID` like '%C0703010%' THEN 'July 30 2019'
+	WHEN `CampaignID` = 'C0703011'  OR `CampaignID` like '%C0703012%' THEN 'Aug 29 2019'
+	WHEN `CampaignID` = 'C0703013'  OR `CampaignID` like '%C0703014%' THEN 'Sep XX 2019'
+	WHEN `CampaignID` = 'C0703015'  OR `CampaignID` like '%C0703016%' THEN 'Oct XX 2019'
+	WHEN `CampaignID` = 'C0703017'  OR `CampaignID` like '%C0703018%' THEN 'Nov XX 2019'
+	WHEN `CampaignID` = 'C0703019'  OR `CampaignID` like '%C0703020%' THEN 'Dec XX 2020'
+	WHEN `CampaignID` = 'C0703021'  OR `CampaignID` like '%C0703022%' THEN 'Jan XX 2020'
+	WHEN `CampaignID` = 'C0703023'  OR `CampaignID` like '%C0703024%' THEN 'Feb XX 2020'
+	WHEN `CampaignID` = 'C0703025'  OR `CampaignID` like '%C0703026%' THEN 'Mar XX 2020'
+	WHEN `CampaignID` = 'C0703027'  OR `CampaignID` like '%C0703028%' THEN 'Apr XX 2020'
+	WHEN `CampaignID` = 'C0703029'  OR `CampaignID` like '%C0703030%' THEN 'May XX 2020'
+	WHEN `CampaignID` = 'C0703031'  OR `CampaignID` like '%C0703032%' THEN 'June XX 2020'
+ END)
